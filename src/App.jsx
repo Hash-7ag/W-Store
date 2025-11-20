@@ -1,9 +1,13 @@
 import React from 'react'
+import PageContainer from './container/PageContainer'
+import Home from './pages/Home'
 
 function App() {
   return (
     <div>
-      <p className='text-xl font-bold text-slate-600'>Hello!</p>
+      <PageContainer>
+         <Home />
+      </PageContainer>
     </div>
   )
 }
